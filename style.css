@@ -134,10 +134,34 @@ slide:nth-child(4){
 }
 
 .col-sm{
-  border:1px solid black;
+  border:1px solid white;
+  margin-bottom: 100px;
 }
 
-.foto_articolo{
-  margin-left: 50px;
-  height: 400px;
+.foto_articolo{  height: 500px;}
+
+.foto_articolo:hover{
+  opacity:0.6;
+  transition: 0.5s;}
+
+
+.garamond{
+      font-family: 'Cormorant Garamond', serif;
+      line-height: 30px;}
+
+
+.testo_piccolo_articolo{
+  margin-top: 10px;
+    margin-bottom: 10px;
+    font-style: italic;
+    font-size: 18pt;
+    color:gray;
+}
+
+.titolo_articolo{
+    font-size: 23pt;
+}
+
+.testo_articolo{
+    font-size: 18pt;
 }
