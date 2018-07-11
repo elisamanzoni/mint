@@ -2,6 +2,21 @@
 
 
 
+.header_2{  position: fixed;
+  top:0%;
+  left:0%;
+  width:100%;
+  height: 100px;
+  background-image:  url(website/colore_rosso/1.jpg);}
+
+  #logo_2{
+    position: fixed;
+    transform: translate(-50%, 0%);
+    top:10px;
+    left:50%;
+    height: 80px;
+  }
+
 
 
 #header{
@@ -19,6 +34,10 @@
   top:50%;
   left:50%;
 }
+
+#logo:hover
+{opacity:0.7;
+transition:0.2s;}
 
 
 .head_centro{
@@ -127,7 +146,7 @@ slide:nth-child(4){
 
 #griglia{
   position: absolute;
-  top:1200px;
+  top:1350px;
   width: 100%;
   left: 0%;
   height: 1000px;
@@ -164,4 +183,17 @@ slide:nth-child(4){
 
 .testo_articolo{
     font-size: 18pt;
+}
+
+
+.back_top{
+  position: fixed;
+  bottom: 100px;
+  right: 100px;
+  height: 70px;
+}
+
+.back_top:hover{
+  opacity: 0.5;
+  transition: 0.2;
 }
