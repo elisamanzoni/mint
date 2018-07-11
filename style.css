@@ -49,7 +49,7 @@
 #music{right: 165px;}
 #manifesto{right: 0%;}
 
-
+/* Fine barra dei menù */
 
 
 slider{
@@ -57,7 +57,7 @@ slider{
   left:0%;
   top:140px;
   width: 100%;
-  height: 40em;
+  height: 900px;
   background-color: #1f1f1f;
   overflow: hidden;
   position: absolute;
@@ -118,4 +118,26 @@ slide:nth-child(4){
   30.0001% {left: -100%; width: 0%;}
   100% {left: 100%; width: 0%;}
 
+}
+
+
+/* Fine slider */
+
+
+
+#griglia{
+  position: absolute;
+  top:1200px;
+  width: 100%;
+  left: 0%;
+  height: 1000px;
+}
+
+.col-sm{
+  border:1px solid black;
+}
+
+.foto_articolo{
+  margin-left: 50px;
+  height: 400px;
 }
