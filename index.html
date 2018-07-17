@@ -1,12 +1,16 @@
+<head>
+
 <link rel="stylesheet"href="style.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 
+<title>MINT JOURNAL</title>
+</head>
 
 <body>
 
 
 
-
+<!--CAROUSEL-->
 <slider>
   <slide></slide>
   <slide></slide>
@@ -14,16 +18,20 @@
   <slide></slide>
 </slider>
 
+
+<!--GRIGLIA 1-->
 <div id="griglia">
 
 <div class="container">
+
+  <div class="garamond titolone">Editorials</div>
+
   <div class="row">
     <div class="col-sm">
       <img class="foto_articolo" src="website/colore_rosso/IMG_9007.jpg">
 
-      <div class="garamond testo_piccolo_articolo">Design - September</div>
-      <div class="garamond titolo_articolo">Discrete Dialogues</div>
-      <div class="garamond testo_articolo">Carlo Scarpa</div>
+      <div class="garamond testo_piccolo_articolo">September</div>
+      <div class="garamond titolo_articolo">Perspective</div>
 
     </div>
 
@@ -31,25 +39,64 @@
     <div class="col-sm">
       <img class="foto_articolo" src="website/colore_rosso/IMG_9008.jpg">
 
-      <div class="garamond testo_piccolo_articolo">Design - September</div>
-      <div class="garamond titolo_articolo">Discrete Dialogues</div>
-      <div class="garamond testo_articolo">Carlo Scarpa</div>
+      <div class="garamond testo_piccolo_articolo">October</div>
+      <div class="garamond titolo_articolo">Food</div>
     </div>
 
 
     <div class="col-sm">
       <img class="foto_articolo" src="website/colore_rosso/IMG_9016.jpg">
 
-      <div class="garamond testo_piccolo_articolo">Design - September</div>
-      <div class="garamond titolo_articolo">Discrete Dialogues</div>
-      <div class="garamond testo_articolo">Carlo Scarpa</div>
+      <div class="garamond testo_piccolo_articolo">November</div>
+      <div class="garamond titolo_articolo">Darkness</div>
     </div>
   </div>
 
-  
+<div id="barra"></div>
+</div>
+
+
+<!--FINE GRIGLIA 1-->
+
+<!--FGRIGLIA 2-->
+
+  <div class="garamond titolone">Articles of the month</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+      <a link href="carlo_scarpa.html"><img class="foto_articolo" src="website/carlo/Carlo_Scarpa.jpeg"></a>
+
+      <div class="garamond testo_piccolo_articolo">Design-September</div>
+      <div class="garamond titolo_articolo">Discrete Dialogues</div>
+      <div class="garamond testo_articolo">The refined approach Cralo Scarpa pursued, <br>resulted in the unobtrusively woven narrative</div>
+
+    </div>
+
+
+    <div class="col-sm">
+      <img class="foto_articolo" src="website/colore_rosso/IMG_9008.jpg">
+
+      <div class="garamond testo_piccolo_articolo">October</div>
+      <div class="garamond titolo_articolo">Food</div>
+    </div>
+
+
+    <div class="col-sm">
+      <img class="foto_articolo" src="website/colore_rosso/IMG_9016.jpg">
+
+      <div class="garamond testo_piccolo_articolo">November</div>
+      <div class="garamond titolo_articolo">Darkness</div>
+    </div>
+  </div>
+
+
 </div>
 
 </div>
+
+
+<!--FINE GRIGLIA 2-->
 
 
 
@@ -57,12 +104,32 @@
 <div class="header_2" ></div>
 <img id="logo_2" src="website/mint logo.png">
 
-
+<!--HEADER-->
 <div id="header">
 
 <div class="head_centro">
 <div id="months" class="testo_header">Months</div>
-<div id="features" class="testo_header">Features</div>
+
+<!--FEATURES-->
+<div id="features_collegamenti" class="testo_header primo_piano">
+
+<div class="dropdown">
+  <button class="btn btn-lg dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+Features
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Stories</a>
+    <a class="dropdown-item" href="#">Art + Fashion</a>
+    <a class="dropdown-item" href="#">Culture</a>
+    <a class="dropdown-item" href="#">Design</a>
+    <a class="dropdown-item" href="#">Living</a>
+  </div>
+</div>
+
+</div>
+<!--FINE FEATURES-->
+
+
 <div id="music" class="testo_header">Music</div>
 <div id="manifesto" class="testo_header">Manifesto</div>
 </div>
@@ -73,8 +140,14 @@
 
 <a href="#header"><img src="website/freccia.png" class="back_top"></a>
 
+<!--FINE tutto-->
+
 
 <script src="jquery.min.js"></script>
 <script src="java.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 
 </body>

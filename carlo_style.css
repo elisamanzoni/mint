@@ -40,6 +40,14 @@
 {opacity:0.7;
 transition:0.2s;}
 
+#back{left:190px;
+border: 1px solid white;
+cursor: pointer;
+font-size: 15pt;}
+
+#freccia2{left: 270px;
+width: 20px;}
+
 
 .head_centro{
   position: absolute;
@@ -204,6 +212,7 @@ text-align: center;}
 
 .titolo_articolo{
     font-size: 23pt;
+    margin-bottom: 10px;
 }
 
 .testo_articolo{
