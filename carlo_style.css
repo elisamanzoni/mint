@@ -40,21 +40,28 @@
 {opacity:0.7;
 transition:0.2s;}
 
-#back{left:190px;
+#back{
+  position: absolute;
+  top:50%;
+  transform: translate(0, -50%);
+  left:30px;
 border: 1px solid white;
 cursor: pointer;
-font-size: 15pt;}
+font-size: 18pt;}
 
-#freccia2{left: 270px;
+#back:hover{  text-decoration: underline;
+background-color: white;
+width:100px;}
+
+#freccia2{left: 0px;
 width: 20px;}
 
 
 .head_centro{
   position: absolute;
   height: 100%;
-  width: 700px;
-  transform: translate(-50%,0%);
-  left: 50%;
+  width: 1000px;
+  left: 100px;
 }
 
 
@@ -88,86 +95,6 @@ width: 20px;}
 /* Fine barra dei menù */
 
 
-slider{
-  display: block;
-  left:0%;
-  top:140px;
-  width: 100%;
-  height: 900px;
-  background-color: #1f1f1f;
-  overflow: hidden;
-  position: absolute;
-}
-
-
-slider > * {
-  position: absolute;
-  display: block;
-  width: 100%;
-  height: 100%;
-  background-color: #1f1f1f;
-  animation: slide 20s infinite;
-  overflow: hidden;
-}
-
-slide:nth-child(1){
-  left:0%;
-  animation-delay: -1s;
-  background-image:  url(website/colore_rosso/1.jpg);
-  background-size: cover;
-  background-position: center;
-  z-index: 4;
-}
-
-slide:nth-child(2){
-  animation-delay: 4s;
-  background-image:  url(website/colore_rosso/2.jpg);
-  background-size: cover;
-  background-position: center;
-  z-index: 3;
-}
-
-slide:nth-child(3){
-  animation-delay: 9s;
-  background-image:  url(website/colore_rosso/3.jpg);
-  background-size: cover;
-  background-position: center;
-  z-index: 2;
-}
-
-slide:nth-child(4){
-  animation-delay: 14s;
-  background-image:  url(website/colore_rosso/4.jpg);
-  background-size: cover;
-  background-position: center;
-  z-index: 1;
-}
-
-
-
-
-@keyframes slide {
-  0% {left: 100%; width: 100%;}
-  5% {left: 0%;}
-  25% {left: 0%;}
-  30% {left: -100%; width: 100%;}
-  30.0001% {left: -100%; width: 0%;}
-  100% {left: 100%; width: 0%;}
-
-}
-
-
-/* Fine slider */
-
-
-
-#griglia{
-  position: absolute;
-  top:1350px;
-  width: 100%;
-  left: 0%;
-  height: 700px;
-}
 
 
 
@@ -192,6 +119,8 @@ slide:nth-child(4){
   transition: 0.5s;}
 
 
+/* testo*/
+
 .garamond{
       font-family: 'Cormorant Garamond', serif;
       line-height: 30px;}
@@ -212,13 +141,40 @@ text-align: center;}
 
 .titolo_articolo{
     font-size: 23pt;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
-.testo_articolo{
-    font-size: 18pt;
+.testo_articolo{ font-size: 15pt;}
+
+.testo_features{
+    font-size: 20pt;
+    text-decoration: underline;
+    color: #B10E12;
 }
 
+.didascalia{
+  font-size: 15pt;
+color:gray;
+margin-top: 10px;}
+
+.italic{font-style: italic;}
+
+.centro_testo{ text-align: center;}
+
+
+/* loghetti*/
+
+.loghetti_articolo{
+  width: 20px;
+  margin: 5px;}
+
+  #cont_loghi{
+    transform: translate(-50%,0);
+    margin-left: 50%;
+    width:100px;
+  }
+
+/* freccia su */
 
 .back_top{
   position: fixed;
@@ -232,8 +188,58 @@ text-align: center;}
   transition: 0.2;
 }
 
-#prova{position: absolute;
-width: 10px;
-height: 10px;
-background-color: red;
-bottom:0%;}
+
+
+
+/* inizio tutto */
+
+#titoli{
+  position: absolute;
+  transform: translate(-50%,0);
+  left:50%;
+  top: 200px;
+  width: 80%;
+  height: 500px;
+}
+
+#foto_grande{
+  transform: translate(-50%,0);
+  margin-left: 50%;
+  margin-bottom: -10px;
+  width:65%;
+}
+
+#foto_medie{  height: 450px;}
+#foto_medie2{  width: 700px;}
+
+.col_testo{width:500px;}
+
+.col{margin-bottom: 50px;}
+
+#citazioni{
+  color:  #B10E12;
+  font-size: 15pt;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  font-family: Arial;
+  font-stretch: extra-condensed;
+  font-weight: bold;
+  line-height: 40PX;
+}
+
+.footer{
+margin-top: -50px;
+  margin-bottom: 100px;
+font-size: 15pt;}
+
+  .margin{margin-left: 20px;}
+
+  .margin:hover{opacity:0.5!important;
+transition: 0.2s}
+
+
+
+  a:hover{  color:inherit!important;}
+
+  a{text-decoration: inherit!important;
+  color:inherit!important;}

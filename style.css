@@ -207,6 +207,7 @@ text-align: center;}
 }
 
 .testo_articolo{
+  margin-top: 15px;
     font-size: 18pt;
 }
 
@@ -223,8 +224,19 @@ text-align: center;}
   transition: 0.2;
 }
 
-#prova{position: absolute;
-width: 10px;
-height: 10px;
-background-color: red;
-bottom:0%;}
+.footer{
+margin-top: -50px;
+  margin-bottom: 100px;
+font-size: 15pt;}
+
+  .margin{margin-left: 20px;}
+
+  .margin:hover{opacity:0.5!important;
+transition: 0.2s}
+
+
+
+  a:hover{  color:inherit!important;}
+
+  a{text-decoration: inherit!important;
+  color:inherit!important;}
