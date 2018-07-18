@@ -2,13 +2,13 @@
 
 
 
+
 .header_2{  position: fixed;
   top:0%;
   left:0%;
   width:100%;
   height: 100px;
-  background-color: lightblue;
-/*  background-image:  url(website/azzurri/header.jpg);*/}
+  background-image:  url(website/colore_rosso/1.jpg);}
 
   #logo_2{
     position: fixed;
@@ -41,34 +41,29 @@
 {opacity:0.7;
 transition:0.2s;}
 
-
-.head_centro{
-  position: absolute;
-  height: 100%;
-  width: 700px;
-  transform: translate(-50%,0%);
-  left: 50%;
-  background-color: none;
-}
-
 #back{
-  position: fixed;
+  position: absolute;
   top:50%;
   transform: translate(0, -50%);
   left:30px;
 border: 1px solid white;
 cursor: pointer;
-font-size: 18pt;
-z-index: 8;
-background-color: none}
+font-size: 18pt;}
 
 #back:hover{  text-decoration: underline;
-background-color: none;
+background-color: white;
 width:100px;}
 
 #freccia2{left: 0px;
-width: 20px;
-z-index: 10;}
+width: 20px;}
+
+
+.head_centro{
+  position: absolute;
+  height: 100%;
+  width: 1000px;
+  left: 100px;
+}
 
 
 
@@ -103,19 +98,6 @@ z-index: 10;}
 
 
 
-/* Fine slider */
-
-
-
-#griglia{
-  position: absolute;
-  top:200px;
-  width: 100%;
-  left: 0%;
-  height: 700px;
-}
-
-
 
 #barra{
   margin-bottom: 100px;
@@ -125,27 +107,20 @@ z-index: 10;}
   background-color: black;
 }
 
-.col-lg{
+.col-sm{
   border:1px solid white;
   margin-bottom: 100px;
   align-content: center;
 }
 
-.foto_articolo{  height: 400px;
-margin-left: 50%;
-transform: translate(-50%,0);}
-
-.foto_articolo_orizzontale{  height: 350px;}
+.foto_articolo{  height: 500px;}
 
 .foto_articolo:hover{
   opacity:0.6;
   transition: 0.5s;}
 
-.foto_mese{  height: 700px;
-}
 
-  .centro_testo{ text-align: center;}
-
+/* testo*/
 
 .garamond{
       font-family: 'Cormorant Garamond', serif;
@@ -166,32 +141,44 @@ text-align: center;}
 }
 
 .titolo_articolo{
-    margin-top: 10px;
     font-size: 23pt;
-    margin-left: 50%;
-    transform: translate(-50%,0);
-    width:60%;
+    margin-bottom: 5px;
 }
 
-.testo_articolo{
-  margin-top: 15px;
-    font-size: 18pt;
-    width:70%;
+.testo_articolo{ font-size: 15pt;}
 
-    margin-left: 50%;
-    transform: translate(-50%,0)
-}
-
-.testo_mese{
-  margin-top: 50px;
+.testo_features{
     font-size: 20pt;
-    width:50%;
-    margin-bottom: 100px;
-    margin-left: 0%;
-    line-height: 40px;
+    text-decoration: underline;
+    color: #B10E12;
 }
 
+.didascalia{
+  font-size: 15pt;
+color:gray;
+margin-top: 10px;}
 
+.italic{font-style: italic;}
+
+.centro_testo{ text-align: center;}
+
+.verticale_centro{transform: translate(0, -50%);
+margin-top: 25%;}
+
+
+/* loghetti*/
+
+.loghetti_articolo{
+  width: 20px;
+  margin: 5px;}
+
+  #cont_loghi{
+    transform: translate(-50%,0);
+    margin-left: 50%;
+    width:100px;
+  }
+
+/* freccia su */
 
 .back_top{
   position: fixed;
@@ -203,6 +190,48 @@ text-align: center;}
 .back_top:hover{
   opacity: 0.5;
   transition: 0.2;
+}
+
+
+
+
+/* inizio tutto */
+
+#titoli{
+  position: absolute;
+  transform: translate(-50%,0);
+  left:50%;
+  top: 200px;
+  width: 80%;
+  height: 500px;
+}
+
+#foto_grande{
+  transform: translate(-50%,0);
+  margin-left: 50%;
+  margin-bottom: -10px;
+  width:65%;
+}
+
+#foto_medie{  height: 450px;}
+#foto_medie2{  width: 700px;}
+#foto_medie3{  width: 500px;}
+
+.col_testo{width:500px;}
+
+.row{margin-bottom: 100px;}
+
+.col{margin-bottom: 50px;}
+
+#citazioni{
+  color:  #B10E12;
+  font-size: 15pt;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  font-family: Arial;
+  font-stretch: extra-condensed;
+  font-weight: bold;
+  line-height: 40PX;
 }
 
 .footer{

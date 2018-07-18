@@ -125,15 +125,13 @@ z-index: 10;}
   background-color: black;
 }
 
-.col-lg{
+.col{
   border:1px solid white;
   margin-bottom: 100px;
   align-content: center;
 }
 
-.foto_articolo{  height: 400px;
-margin-left: 50%;
-transform: translate(-50%,0);}
+.foto_articolo{  height: 300px;}
 
 .foto_articolo_orizzontale{  height: 350px;}
 
@@ -166,20 +164,14 @@ text-align: center;}
 }
 
 .titolo_articolo{
-    margin-top: 10px;
     font-size: 23pt;
-    margin-left: 50%;
-    transform: translate(-50%,0);
-    width:60%;
 }
 
 .testo_articolo{
   margin-top: 15px;
     font-size: 18pt;
     width:70%;
-
-    margin-left: 50%;
-    transform: translate(-50%,0)
+    margin-left: 0%;
 }
 
 .testo_mese{
